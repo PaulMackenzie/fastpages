@@ -1,4 +1,4 @@
-# Auto-convert Jupyter Notebooks To Posts (edited)
+# Auto-convert Jupyter Notebooks To Posts
 
 [`fastpages`](https://github.com/fastai/fastpages) will automatically convert [Jupyter](https://jupyter.org/) Notebooks saved into this directory as blog posts!
 
