@@ -193,6 +193,14 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://colab.research.google.com/github/PaulMackenzie/fastpages/blob/master/_notebooks/2020-02-20-test.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="About">
 <a class="anchor" href="#About" aria-hidden="true"><span class="octicon octicon-link"></span></a>About<a class="anchor-link" href="#About"> </a>
 </h1>
@@ -286,6 +294,8 @@ window.onload = wrap_img;
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#collapse-hide</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
+
+<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
 </pre></div>
 
     </div>
@@ -304,6 +314,28 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interactive</span><span class="p">,</span> <span class="n">fixed</span><span class="p">,</span> <span class="n">interact_manual</span>
+<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span>
+
+<span class="n">interact</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -815,7 +847,7 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="/fastpages/images/copied_from_nb/my_icons/fastai_logo.png" alt=""></p>
+<p><img src="https://github.com/PaulMackenzie/fastpages/blob/master/_notebooks/my_icons/fastai_logo.png?raw=1" alt=""></p>
 
 </div>
 </div>
@@ -996,6 +1028,10 @@ And another {% fn 2 %}
 </div>
 </div>
 </div>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"64a64c7cd87c43d9980d38cc06d30631": {"model_module": "@jupyter-widgets/controls", "model_name": "VBoxModel", "state": {"_view_name": "VBoxView", "_dom_classes": ["widget-interact"], "_model_name": "VBoxModel", "_view_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_view_count": null, "_view_module_version": "1.5.0", "box_style": "", "layout": "IPY_MODEL_e600fa6393dd456aa1a410bab6badc0c", "_model_module": "@jupyter-widgets/controls", "children": ["IPY_MODEL_92ed4918d0584970a7321bd0f0a567d3", "IPY_MODEL_95c2e00969cf46098f58149f642d3585"]}}, "e600fa6393dd456aa1a410bab6badc0c": {"model_module": "@jupyter-widgets/base", "model_name": "LayoutModel", "state": {"_view_name": "LayoutView", "grid_template_rows": null, "right": null, "justify_content": null, "_view_module": "@jupyter-widgets/base", "overflow": null, "_model_module_version": "1.2.0", "_view_count": null, "flex_flow": null, "width": null, "min_width": null, "border": null, "align_items": null, "bottom": null, "_model_module": "@jupyter-widgets/base", "top": null, "grid_column": null, "overflow_y": null, "overflow_x": null, "grid_auto_flow": null, "grid_area": null, "grid_template_columns": null, "flex": null, "_model_name": "LayoutModel", "justify_items": null, "grid_row": null, "max_height": null, "align_content": null, "visibility": null, "align_self": null, "height": null, "min_height": null, "padding": null, "grid_auto_rows": null, "grid_gap": null, "max_width": null, "order": null, "_view_module_version": "1.2.0", "grid_template_areas": null, "object_position": null, "object_fit": null, "grid_auto_columns": null, "margin": null, "display": null, "left": null}}, "92ed4918d0584970a7321bd0f0a567d3": {"model_module": "@jupyter-widgets/controls", "model_name": "IntSliderModel", "state": {"_view_name": "IntSliderView", "style": "IPY_MODEL_67b01c89107f4fc18706c92e6cb7428f", "_dom_classes": [], "description": "x", "step": 1, "_model_name": "IntSliderModel", "orientation": "horizontal", "max": 30, "_view_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "value": 2, "_view_count": null, "disabled": false, "_view_module_version": "1.5.0", "min": -10, "continuous_update": true, "readout_format": "d", "description_tooltip": null, "readout": true, "_model_module": "@jupyter-widgets/controls", "layout": "IPY_MODEL_e6108ffedf7349b8a6a9945c7a52c677"}}, "95c2e00969cf46098f58149f642d3585": {"model_module": "@jupyter-widgets/output", "model_name": "OutputModel", "state": {"_view_name": "OutputView", "msg_id": "", "_dom_classes": [], "_model_name": "OutputModel", "outputs": [{"output_type": "display_data", "metadata": {"tags": []}, "text/plain": "2"}], "_view_module": "@jupyter-widgets/output", "_model_module_version": "1.0.0", "_view_count": null, "_view_module_version": "1.0.0", "layout": "IPY_MODEL_07a2969345f44c0ebc220f256c218e68", "_model_module": "@jupyter-widgets/output"}}, "67b01c89107f4fc18706c92e6cb7428f": {"model_module": "@jupyter-widgets/controls", "model_name": "SliderStyleModel", "state": {"_view_name": "StyleView", "handle_color": null, "_model_name": "SliderStyleModel", "description_width": "", "_view_module": "@jupyter-widgets/base", "_model_module_version": "1.5.0", "_view_count": null, "_view_module_version": "1.2.0", "_model_module": "@jupyter-widgets/controls"}}, "e6108ffedf7349b8a6a9945c7a52c677": {"model_module": "@jupyter-widgets/base", "model_name": "LayoutModel", "state": {"_view_name": "LayoutView", "grid_template_rows": null, "right": null, "justify_content": null, "_view_module": "@jupyter-widgets/base", "overflow": null, "_model_module_version": "1.2.0", "_view_count": null, "flex_flow": null, "width": null, "min_width": null, "border": null, "align_items": null, "bottom": null, "_model_module": "@jupyter-widgets/base", "top": null, "grid_column": null, "overflow_y": null, "overflow_x": null, "grid_auto_flow": null, "grid_area": null, "grid_template_columns": null, "flex": null, "_model_name": "LayoutModel", "justify_items": null, "grid_row": null, "max_height": null, "align_content": null, "visibility": null, "align_self": null, "height": null, "min_height": null, "padding": null, "grid_auto_rows": null, "grid_gap": null, "max_width": null, "order": null, "_view_module_version": "1.2.0", "grid_template_areas": null, "object_position": null, "object_fit": null, "grid_auto_columns": null, "margin": null, "display": null, "left": null}}, "07a2969345f44c0ebc220f256c218e68": {"model_module": "@jupyter-widgets/base", "model_name": "LayoutModel", "state": {"_view_name": "LayoutView", "grid_template_rows": null, "right": null, "justify_content": null, "_view_module": "@jupyter-widgets/base", "overflow": null, "_model_module_version": "1.2.0", "_view_count": null, "flex_flow": null, "width": null, "min_width": null, "border": null, "align_items": null, "bottom": null, "_model_module": "@jupyter-widgets/base", "top": null, "grid_column": null, "overflow_y": null, "overflow_x": null, "grid_auto_flow": null, "grid_area": null, "grid_template_columns": null, "flex": null, "_model_name": "LayoutModel", "justify_items": null, "grid_row": null, "max_height": null, "align_content": null, "visibility": null, "align_self": null, "height": null, "min_height": null, "padding": null, "grid_auto_rows": null, "grid_gap": null, "max_width": null, "order": null, "_view_module_version": "1.2.0", "grid_template_areas": null, "object_position": null, "object_fit": null, "grid_auto_columns": null, "margin": null, "display": null, "left": null}}}
+</script>
 
 
 
